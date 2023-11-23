@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+img {
+    width: 90px;
+    margin: 50px auto 0 auto;
+}
+
+h1 {
+    margin: 20px 0 0 0;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#text-container {
+    margin: 10px 0 0 0;
+    display: flex;
+    gap: 10px;
+}
+
+textarea {
+    height: 120px;
+    margin: 20px 0 0 0;
+    padding: 10px 20px;
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    color: #8F8F8F;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    resize: none;
+}
+
+input {
+    text-align: center;
+    padding: 10px;
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    color: #8F8F8F;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    flex-grow: 1; 
+    width: 50px;
+}
+
+button {
+    margin: 10px 0 0 0;
+    padding: 15px;
+    background-color: #28A9F1;
+    border-radius: 8px;
+    border: none;
+    color: #04131C;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.endorsement-container {
+    height: 400px;
+    overflow: auto;
+}
+
+
+.message-container {
+    background-color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #1B1924;
+    padding: 10px 15px;
+    margin: 20px 0 0 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.likes-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    filter: brightness(0);
+    user-select: none;
+}
+
